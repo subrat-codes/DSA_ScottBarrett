@@ -174,7 +174,7 @@ public class LinkedList {
     }
 
     public boolean hasLoop(){
-        // TODO
+        // Your implementation here
         return false;
     }
 
@@ -191,6 +191,23 @@ public class LinkedList {
             fast = fast.next;
         }
         return slow.value;
+    }
+
+    public void partitionList(int x) {
+        // Your implementation here
+    }
+
+    public void removeDuplicates() {
+        // Your implementation here
+    }
+
+    public int binaryToDecimal() {
+        // Your implementation here
+        return 0;
+    }
+
+    public void reverseBetween(int m, int n) {
+        // Your implementation here
     }
 
 
