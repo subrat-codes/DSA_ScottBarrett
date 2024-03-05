@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class LinkedListGetNodeByIndexTest {
+public class GetNodeByIndexTest {
 
     @Test
     void get_ByIndex_FromLinkedList_WithZeroElement() {

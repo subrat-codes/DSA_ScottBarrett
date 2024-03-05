@@ -158,9 +158,43 @@ public class LinkedList {
             before = temp;
             temp = after;
         }
-
-
     }
+
+    // Leetcode starts
+    public Integer findMiddleNode() {
+        var slow = head;
+        var fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow.value;
+    }
+
+    public boolean hasLoop(){
+        // TODO
+        return false;
+    }
+
+    public Integer findKthNodeFromEnd(int k){
+        var slow = head;
+        var fast = head;
+        for (int i = 0; i < k; i++) {
+            if (fast == null) return null;
+            fast = fast.next;
+        }
+
+        while(fast != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow.value;
+    }
+
+
+    // Leetcode ends
 
     public void print() {
         System.out.println("Printing Linked List:");

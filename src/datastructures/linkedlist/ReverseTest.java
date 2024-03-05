@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class LinkedListReverseTest {
+public class ReverseTest {
 
     @Test
     void reverse_LinkedList_WithOneElement() {

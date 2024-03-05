@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class LinkedListRemoveNodeByIndexTest {
+public class RemoveNodeByIndexTest {
 
     @Test
     void remove_ByIndex_FromLinkedList_WithZeroElement() {
